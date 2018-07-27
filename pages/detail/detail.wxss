@@ -1,0 +1,9 @@
+/* pages/detail/detail.wxss */
+view{
+  font-size: 28rpx;
+  color: rgb(29, 189, 8);
+  line-height: 60rpx; 
+}
+.wrapp{
+  display: inline-block;
+}

@@ -1,0 +1,18 @@
+/* pages/cinema/cinema.wxss */
+
+.district {
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 30rpx;
+    padding-left: 32rpx;
+    background: #e1e1e1;
+    margin-bottom: 4rpx;
+    color: #636363;
+    cursor: pointer;
+}
+.didian{
+  color: rgb(107, 209, 49);
+  font-size: 32rpx;
+  padding: 20rpx 0 24rpx 32rpx;
+  border-bottom: 1px solid #e1e1e1;
+}

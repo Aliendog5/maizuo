@@ -1,0 +1,18 @@
+<!--pages/cinema/cinema.wxml-->
+<view>
+<view>
+  <view wx:for="{{direct}}" wx:for-item="itemmm"   wx:key="{{index}}">
+
+    <view  bindtap='tapClick'  data-index="{{index?index:''}}" class='district'>{{itemmm.add}}</view>
+
+    <view wx:if="{{itemmm.flag}}" wx:for="{{cinemas}}" wx:for-key="{{indexxx}}" wx:key="{{indexxx}}">
+      <view class='didian' wx:if="{{item.district.name===itemmm.add}}">{{item.name}}</view>
+    </view>
+
+  </view>
+  
+  
+</view>
+
+
+</view>
